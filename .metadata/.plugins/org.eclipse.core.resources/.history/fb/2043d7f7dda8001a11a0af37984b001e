@@ -1,0 +1,23 @@
+
+public class InsertionSort {
+
+	public static void main(String[] args) {
+		int arr[]= {1,2,4,3,0};
+       insertionSort(arr);
+	}
+
+	private static void insertionSort(int[] arr) {
+		int j,v;
+		for(int i=1;i<arr.length;i++) {
+			j=i;
+			v=arr[i];
+			while(arr[j-1]>v&&j>=1) {
+				arr[j]=arr[j-1];
+				j--;
+			}
+			arr[j]=v;
+		}
+		
+	}
+
+}

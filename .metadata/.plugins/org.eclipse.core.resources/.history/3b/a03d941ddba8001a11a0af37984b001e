@@ -1,0 +1,16 @@
+
+public class SelectionSort {
+
+	public static void main(String[] args) {
+	 
+		int arr[]= {5,2,3,1,0};
+		selectionSort(arr);
+		
+
+	}
+	private static void selectionSort(int[] arr) {
+		
+		
+	}
+
+}
